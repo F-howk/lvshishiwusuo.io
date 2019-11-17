@@ -1,0 +1,73 @@
+#main .mainTop>div:nth-child(2){
+    width: 284px;
+}
+#main-main{
+    background: #fff;
+    margin-top: 18px;
+}
+.mainLeft{
+    width: 222px;
+}
+.mainLeft>ul{
+    margin-left: 20px;
+}
+.mainLeft li{
+    border-bottom: 1px solid #cdcdcd;
+    line-height: 40px;
+}
+.mainLeft li:last-child{
+    border: none;
+}
+.mainLeft ul>li:first-child{
+    margin-top: 25px;
+    font-size: 20px;
+    color: #56524f;
+    font-weight: bold;   
+    margin-bottom: 16px;
+}
+.mainLeft a{
+    font-size: 14px;
+    color: #969893;
+}
+.mainLeft ul>li:not(:first-child){
+    padding-left: 7px;
+}
+.mainRight{
+    width: 766px;
+    height: 510px;
+    padding: 42px 106px 26px;
+    font-size: 14px;
+    color: #686667;
+}
+#main-main h3{
+    font-size: 16px;
+    color: #3f5800;
+    text-align: center;
+    margin-bottom: 26px;
+}
+#main-main .mainRight span:not(:first-child){  
+    margin-left: 28px;
+ } 
+.smallh{
+    width: 450px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+#main-main .mainRight p{
+    text-indent: 2em;
+    line-height: 24px;
+}
+.firstp{
+    height: 42px;
+    background-color: #f5f5f5;  
+    padding: 10px 0px ;
+    margin-bottom: 15px;
+}
+#main-main .mainRight a{
+    display: block;
+    margin-top: 16px;
+    color: #686667;
+}
+#main-main .mainRight .bottomb{
+    margin-top: 30px;
+}

@@ -1,0 +1,255 @@
+/* 顶部 */
+
+#main>#service{
+    height: 680px;
+    background:url(../images/index-p1-bg.png) no-repeat  bottom  #fff;
+}
+
+/* 服务项目 */
+.service{
+    height: 76px;
+    border-bottom: 1px solid #d7d7d7;
+}
+.title{
+    width: 184px;
+    height: 52px;
+    border-bottom: 2px solid #0888cf;
+    text-align: center;
+    color: #5a5657;
+    font-size: 28px;
+    line-height: 52px;
+    margin: 0 auto;
+    padding-top: 24px;
+}
+.titleSpan{
+    display: block;
+    color: #4e83e9;
+    font-size: 16px;
+    padding-top:5px ;
+    text-align: center;
+}
+.pps{
+    width: 1100px;
+    height: 380px;
+    margin: 37px 50px 46px 50px;
+}
+#service .left{
+    width: 260px;
+    height: 380px;
+}
+#service .right{
+    width: 840px;
+    height: 380px;
+}
+#service .pps>div{
+    float: left;
+}
+#service .right>.bigDiv{
+    float: left;
+    width: 260px;
+    height: 180px;
+    margin: 0px 0px 20px 20px;
+    position: relative;
+}
+#service .right .smallDiv{
+    width: 260px;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    line-height: 30px;
+    background:rgba(0,0,0,0.2);
+    display: none;
+}
+#service .right>div:hover>.smallDiv{
+    display: block;
+}
+/* 经典案例 */
+#case{
+    height: 534px;
+    background: url(../images/bg_l9wu.jpg) no-repeat bottom;
+    margin-top: 20px;
+    background-color: #fff;
+}
+.case{
+    height: 94px;
+    border-bottom: 1px solid #d7d7d7;
+}
+#case .case>div{
+    padding-top:42px ;
+}
+#case .cases{
+    width: 1050px;
+    height: 300px;
+    margin:48px 75px 20px;
+}
+#case .cases div{
+    width: 238px;
+    height: 300px;
+    float: left;
+    background-color: #fff;
+}
+#case .cases div:not(:first-child){
+    margin-left: 32px;
+}
+#case .cases img{
+    width: 238px;
+    height: 145px;
+    margin-bottom:24px;
+}
+#case .cases span{
+    font-size:16px;
+    color: #5a5a5a;
+    margin-left: 14px;  
+}
+#case .cases p{
+    color: #556c74;
+    font-size: 12px;
+    margin-left: 14px;
+    margin-right: 15px;
+    margin-top: 8px;
+}
+#case .cases a{
+    color: #4c8ff8;
+    float: right;
+    margin-right: 16px;
+    margin-top: 28px;
+}
+#case input{
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+    height: 26px;
+    color: #fff;
+    font-size: 12px;
+    border:1px solid #fff;
+    border-radius: 10px;
+    background-color:transparent;
+    margin-top:-6px;
+}
+#foot{
+    height:370px;
+    margin-top: 23px;
+}
+#newTeam{
+    width: 740px;
+    height: 370px;
+    background-color: #fff;
+    float: left;
+}
+#order{
+    width: 442px;
+    height: 370px;
+    background-color: #fff;
+    float: right;
+}
+#foot .newTop{
+    height: 52px;
+    border-bottom: 1px solid #dadada;
+    margin-bottom:20px;
+}
+#foot .newTop>div{
+    color: #555658;
+    font-size: 18px;
+    height: 16px;
+    width: 172px;
+    border-bottom: 2px solid #4a85e9;
+    float: left;
+    padding: 20px 0px 16px 12px;
+
+}
+ .newTop>div>span{
+    font-size:12px;
+    color: #4485ed;
+    margin-left:7px;
+}
+ .newTop>a{
+    font-size: 12px;
+    float: right;
+    color: #4485ed;
+    margin: 30px 17px 12px 0px;
+}
+#foot .newBottom{
+    padding: 0px 20px ;
+}
+#foot .newBottom>.section{
+    width: 660px;
+    height: 60px;
+    margin-bottom:10px;
+    border-bottom: 1px solid #dadada;
+    padding: 12px 10px 12px 30px;
+}
+#foot .section>div:first-child{
+    width: 60px;
+    height: 60px;
+    background-color: #198ede;
+    float: left;
+    text-align: center;
+}
+#foot .section>div:last-child{
+    width: 590px;
+    height: 60px;
+    float: right;
+
+}
+#foot .section>div:first-child>span:first-child{
+    color: white;
+    font-size: 20px;
+    font-weight:bold;
+    display: block;
+    margin-top:10px;
+    
+}
+#foot .section>div:first-child>span:last-child{
+    color: white;
+    font-size: 10px;
+    display: block;
+    margin-top:5px;
+}
+#foot .section>div:last-child>h2{
+    font-size: 18px;
+    font-weight: normal;
+    color: #4b4b4b;
+}
+#foot .section>div:last-child>p{
+    color: #4b4b4b;
+    font-size: 12px;
+    margin-top:2px;
+}
+#order .orderBottom{
+    margin-top: 37px;
+    padding:0px 30px 0px 30px;
+    height: 222px;
+}
+#order .orderBottom span{
+    margin-left: 2px;
+    color: red;
+}
+#order .orderBottom div{
+    width: 382px;
+    margin-bottom: 10px;
+}
+#order .orderBottom input{
+    width: 322px;
+    height: 40px;
+    margin-left: 24px;
+    background-color: #f7f7f7;
+    border: 1px solid #dfdfdf;
+}
+#order .orderBottom textarea{
+    width: 322px;
+    height: 70px;
+    margin-left: 24px;
+    background-color: #f7f7f7;
+    border: 1px solid #dfdfdf;
+    vertical-align: middle;
+}
+#order .orderBottom div:last-child input{
+    color: white;
+    background-color: #4a85e9;
+    margin-left: 56px;
+    border: none;
+    border-radius:2px;
+}

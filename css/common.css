@@ -1,0 +1,257 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    height: 0;
+    clear:both;
+}
+.clearfix{
+    zoom: 1;
+}
+/* 顶部 */
+#top{
+    height: 30px;
+    line-height: 30px;
+    color: #aba19f;
+    border-bottom: 1px solid #dcdcdc;
+    font-size: 12px;
+}
+#top span:last-child{
+    padding-left:28px ;
+    background: url(../images/tel.png) no-repeat 0px 6px;
+}
+#top a{
+    color: #4987dc;
+}
+/* 导航 */
+#nav{
+    height: 60px;
+    line-height: 60px;
+}
+#nav img{
+    height: 42px;
+    width: 42px;
+    vertical-align: -12px;
+}
+#nav li{
+    float: left;
+    width: 104px;
+    text-align: center;   
+}
+#nav a{
+    font-size: 12px;
+    color: #333;
+}
+#nav li:hover{
+    background: #4a85e9;
+}
+#nav li:hover>a{
+    color: white;
+}
+#nav li:first-child>a{
+    color: #fff;
+}
+#nav .active{
+    background-color: #4a85e9;
+}
+#nav span{
+    font-size: 30px;
+    color: #585550;
+    padding-left: 12px;
+}
+/* 轮播 */
+#banner{
+    height: 370px;
+    background: url(../images/banner01.jpg) no-repeat;
+    min-width: 1200px;
+    padding-top:80px;
+}
+#banner .ban{
+    position: relative;
+}
+#banner>.container>.font{
+    width: 328px;
+    height: 164px;
+    margin-left:56px;
+    color: #fff;
+}
+#banner .font>p{
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 2px;  
+}
+#banner .font>p:nth-child(2){
+    border-bottom:2px solid #fff ;
+    padding-bottom:24px;
+    padding-top: 18px;
+}
+#banner .font>span{
+    display: block;
+    margin-top: 22px;
+    font-size: 18px;
+}
+#banner .head{
+    width: 1044px;
+    height: 80px;
+    padding: 20px 78px;
+    border-bottom: 1px dashed #d7d7d7;
+    background-color: #fff;
+    position: absolute;
+    bottom:-216px;
+    right: 0px;
+}
+/* header是小盒子的名字 */
+#banner .header{
+    width: 124px;
+    height: 64px;
+    float: left; 
+    line-height: 64px;
+    padding:8px 68px;
+
+}
+#banner .header:not(:last-child){
+    border-right: 1px dashed #d7d7d7;
+}
+#banner .header a{
+    float: right;
+    font-size:18px;
+    color: #333;
+
+}
+#banner .header:nth-child(1){
+    background: url(../images/p1_act0.png) no-repeat 68px 10px;
+    background-size: 60px 60px;
+}
+#banner .header:nth-child(2){
+    background: url(../images/p2_819t.png) no-repeat 68px 10px;
+    background-size: 60px 60px;
+}
+#banner .header:nth-child(3){
+    background: url(../images/p3_g51q.png) no-repeat 68px 10px;
+    background-size: 60px 60px;
+}
+#banner .header:nth-child(4){
+    background: url(../images/p4_q67r.png) no-repeat 68px 10px;
+    background-size: 60px 60px;
+}
+.span{
+    height: 10px;
+    background-color: #cdcdcd;
+    min-width: 1200px;
+}
+#main{
+    background-color: #f1f1f1;
+    position: relative;
+    min-width: 1200px;
+    height: 100%;
+}
+.footft{
+    height: 26px;
+    min-width: 1200px;
+    background: #f1f1f1;
+}
+#footer{
+    height: 138px;
+    negative: #fff;
+    border-top:1px solid #dddddd;
+    min-width: 1200px;
+}
+#footer .left{
+    width: 358px;
+    height: 98px;
+    padding: 20px 0px; 
+    float: left;
+}
+#footer .center{
+    width:480px ;
+    height: 62px;
+    float: left;
+    padding: 38px 40px;
+}
+#footer .center p{
+    font-size: 14px;
+}
+#footer .center>div{
+    width: 480px;
+    height: 62px;
+    line-height: 31px;
+}
+#footer .right{
+    width: 218px;   
+    height: 118px;
+    float: left;
+    padding: 10px 32px;
+}
+#footer .left>div{
+    width: 294px;
+    height: 50px;
+    border-right:1px dashed #d7d7d7;
+    padding: 24px 32px;
+    font-size: 28px;
+    color: #9a9a9a;
+}
+#footer .left img{
+    width: 50px;
+    height: 50px;
+}
+#footer .left span{
+    float: right;
+    margin-top:6px;
+}
+#footer .right>div{
+    width: 200px;
+    height: 100px;
+    padding: 9px;
+    background: #eeeeee;
+}
+#footer .right img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+#footer .right p{
+    font-size: 12px;
+    line-height: 20px;
+}
+#footer .right .sao{
+    float: left;
+    margin: 36px 10px;
+}
+#main-nav{
+    height: 40px;
+    background-color: #fff;
+    min-width: 1200px;
+    border-bottom: 1px solid #cacaca;
+}#main .mainTop{
+    height: 28px;
+    padding: 6px 0px;
+}
+#main .mainTop>div:first-child{
+    width: 95px;
+    height: 28px;
+    float: left;
+    border-right: 1px solid #cacaca;
+    font-size: 18px;
+    color: #656766;
+    line-height: 28px;
+    padding-left: 45px;
+    background: url(../images/sub-page.png) no-repeat 20px 6px;
+    background-size: 18px 18px ;
+}
+#main .mainTop>div:last-child{
+    width: 114px;
+    height: 12px;
+    float: left;
+    font-size: 12px;
+    color: #656766;
+    padding:10px 10px 8px 16px ;
+}

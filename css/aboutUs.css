@@ -1,0 +1,87 @@
+#introdction{
+    margin-top:18px ;
+    background: #fff;
+}
+#introdction .introdctionTop{
+    width: 1136px;
+    height: 458px;
+    padding: 0px 30px 0px 36px;
+}
+#introdction .introdctionBottom{
+    width: 1134px;
+    height: 390px;
+    padding: 0px 30px 0px 36px;
+}
+#introdction .introdctionTop>div{
+    width: 1136px;
+    height: 458px;
+    border-bottom: 1px solid #cdcdcd;
+}
+#introdction .introdctionTop .top{
+    height: 42px;
+    text-align: center;
+    padding: 56px 0px 64px 0px;
+}
+#introdction .top>h2{
+    font-size: 22px;
+    color: #555150;
+}
+#introdction .top>span{
+    font-size: 12px;
+    color: #bec4c2;
+}
+#introdction .introdctionTop .bottom{
+    height: 248px;
+}
+#introdction .bottom>div:first-child{
+    width: 360px;
+    height: 278px;
+}
+#introdction .bottom img{
+    width: 360px;
+    height: 278px;
+}
+#introdction .bottom>div:last-child{
+    width: 678px;
+    height: 278px;
+    margin-left: 46px;
+}
+#introdction .bottom .rightTop{
+    height: 98px;
+    width: 678px;
+    padding-top: 6px;
+}
+#introdction .bottom>div:last-child p{
+    font-size: 14px;
+    color: #5d5852;
+    line-height: 22px;
+}
+#introdction .bottom .rightMiddle{
+    width: 678px;
+    height: 75px;
+    padding-top: 12px;
+    border-top: 1px dashed #cdcdcd;
+    border-bottom: 1px dashed #cdcdcd;
+}
+#introdction .bottom .rightBottom{
+    width: 678px;
+    height: 39px;
+    padding-top:16px;
+}
+.introdctionBottom .ibTop{
+    height: 112px;
+    line-height: 112px;
+    font-size: 16px;
+    color: #5d5852;
+    padding-left: 16px;
+}
+.introdctionBottom img{
+    width: 300px;
+    height: 208px;
+}
+.introdctionBottom>div:not(.ibTop){
+    width: 300px;
+    height: 208px;
+    float: left;
+    margin-left: 60px;
+}

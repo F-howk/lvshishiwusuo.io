@@ -1,0 +1,36 @@
+#allmain{
+    background: #fff;
+    margin-top:18px ;
+}
+.main-main{
+    width: 1098px;
+    height: 370px;   
+    padding:60px 56px 46px 46px ;
+}
+.main-main>div{
+    width: 1098px;
+    height: 370px;  
+}
+.main-main .main_l{
+    width: 300px;
+    height: 370px;
+}
+.main-main .main_r{
+    width: 644px;
+    height: 370px;
+}
+.main-main .main_l img{
+    width: 140px;
+    height: 140px;
+    margin-top: 38px;
+}
+.main-main .main_l h4{
+    font-size: 18px;
+    color: #585649;
+    margin-bottom: 50px;
+}
+.main-main .main_l>p{
+    font-size: 14px;
+    color: #636162;
+    line-height: 32px;
+}
